@@ -7,12 +7,9 @@
 
 import SwiftUI
 
-struct Chartdata: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct Chartdata:Identifiable{
+    var id = UUID()
+    var category :String
+    var amount :Int
 }
 
-#Preview {
-    Chartdata()
-}
