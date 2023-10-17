@@ -11,7 +11,7 @@ import SwiftUI
 struct MyMoney2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
     }
 }
