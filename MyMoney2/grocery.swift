@@ -23,19 +23,20 @@ struct grocery: View {
                 
                 VStack{
 
-                    HStack {
+                
                         
-                        
-                        Image("logo")
+                        Image("flosi")
+                    
+
                             .resizable()
                             .offset(x: 100, y: 5)
-                            .frame(width: 300, height: 165)
+                            .frame(width: 228 ,height: 228)
                             .frame(maxWidth: 890, alignment: .trailing)
                             .padding([.top, .leading], 100.0)
 
                         
                         
-                    }
+                    
                     
                     
                     Rectangle()
@@ -143,6 +144,7 @@ struct grocery: View {
                             .background(Color.white)
                             .cornerRadius(10)
                             .shadow(color: Color.gray, radius: 5, x: 0, y: 5)
+                         
                             .padding()
                         Text("المــبــلـغ")
                             .foregroundColor(.black)
@@ -156,7 +158,9 @@ struct grocery: View {
                 }
             }
         }
-        }
+       
+}
+
 #Preview {
     grocery()
 }
