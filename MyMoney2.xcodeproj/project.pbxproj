@@ -14,6 +14,9 @@
 		86754BF02ADD1CFF0010DBC6 /* moneybox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86754BEF2ADD1CFF0010DBC6 /* moneybox.swift */; };
 		86754BF22ADD1DA10010DBC6 /* grocery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86754BF12ADD1DA10010DBC6 /* grocery.swift */; };
 		86754BF42ADD1DB60010DBC6 /* fastfood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86754BF32ADD1DB60010DBC6 /* fastfood.swift */; };
+		BD5091232ADE874F00016CE6 /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5091222ADE874F00016CE6 /* profileView.swift */; };
+		BD5091252ADE87B900016CE6 /* NewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5091242ADE87B900016CE6 /* NewChart.swift */; };
+		BD5091272ADE87F900016CE6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5091262ADE87F900016CE6 /* ProfileView.swift */; };
 		CCFBA0DE2ADD3FC8001E1B00 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFBA0DD2ADD3FC8001E1B00 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,9 @@
 		86754BEF2ADD1CFF0010DBC6 /* moneybox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneybox.swift; sourceTree = "<group>"; };
 		86754BF12ADD1DA10010DBC6 /* grocery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grocery.swift; sourceTree = "<group>"; };
 		86754BF32ADD1DB60010DBC6 /* fastfood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastfood.swift; sourceTree = "<group>"; };
+		BD5091222ADE874F00016CE6 /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = profileView.swift; path = ../../profileView.swift; sourceTree = "<group>"; };
+		BD5091242ADE87B900016CE6 /* NewChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChart.swift; sourceTree = "<group>"; };
+		BD5091262ADE87F900016CE6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		CCFBA0DD2ADD3FC8001E1B00 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,9 +68,12 @@
 				86754BE12ADD1C1B0010DBC6 /* MyMoney2App.swift */,
 				86754BE32ADD1C1B0010DBC6 /* ContentView.swift */,
 				CCFBA0DD2ADD3FC8001E1B00 /* HomeView.swift */,
+				BD5091222ADE874F00016CE6 /* profileView.swift */,
 				86754BEF2ADD1CFF0010DBC6 /* moneybox.swift */,
 				86754BF12ADD1DA10010DBC6 /* grocery.swift */,
 				86754BF32ADD1DB60010DBC6 /* fastfood.swift */,
+				BD5091242ADE87B900016CE6 /* NewChart.swift */,
+				BD5091262ADE87F900016CE6 /* ProfileView.swift */,
 				86754BE52ADD1C1D0010DBC6 /* Assets.xcassets */,
 				86754BE72ADD1C1D0010DBC6 /* Preview Content */,
 			);
@@ -149,10 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5091232ADE874F00016CE6 /* profileView.swift in Sources */,
+				BD5091272ADE87F900016CE6 /* ProfileView.swift in Sources */,
 				86754BF02ADD1CFF0010DBC6 /* moneybox.swift in Sources */,
 				86754BE42ADD1C1B0010DBC6 /* ContentView.swift in Sources */,
 				86754BE22ADD1C1B0010DBC6 /* MyMoney2App.swift in Sources */,
 				CCFBA0DE2ADD3FC8001E1B00 /* HomeView.swift in Sources */,
+				BD5091252ADE87B900016CE6 /* NewChart.swift in Sources */,
 				86754BF22ADD1DA10010DBC6 /* grocery.swift in Sources */,
 				86754BF42ADD1DB60010DBC6 /* fastfood.swift in Sources */,
 			);
